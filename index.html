@@ -11,8 +11,9 @@
 <body>
     <!-- NAVBAR -->
     <nav>
-        <dic class="nav-contaniner">
+        <div class="nav-contaniner">
             <div class="navbar-brand"><a href="#">Townsville Music</a></div>
+             <div class="navbar-list">
             <ul>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">About</a>
@@ -26,8 +27,9 @@
                 <li class="nav-item">
                     <a href="#shop">shop</a>
                 </li>
-            </ul>
-        </dic>
+                 </ul>
+             </div>
+        </div>
     </nav>
 
     <!-- MAIN LANDING -->
@@ -40,12 +42,13 @@
 
 <!-- artist tile -->
 <section class="artist-tile">
-    <div id="gradient"></div>
+    <div id="gradient"> </div>
     <div class="artist-header" id="Artists">
         <h2>Our Artists</h2>
     </div>
         <div class="main-tile-dimension">
-            <div class="artist"></div>
+            <div class="artist">
+                <div class="image-container-artist">
             <img src="static/artists-images/1.jpg" alt="Black and white image of musician singing">
         </div>
         <div class="artist-name">
@@ -61,9 +64,11 @@
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-    <div class="main-tile-dmension">
-        <div class="artist"></div>
+        </div>
+        </div>
+
+        <div class="artist">
+            <div class="image-container-artist">
         <img src="static/artists-images/2.jpg" alt="Girl playin electric guitar">
     </div>
     <div class="artist-name">
@@ -79,9 +84,11 @@
     <a href="#"><i class="fa-brands fa-twitter"></i></a>
     <a href="#"><i class="fa-brands fa-tiktok"></i></a>
     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-</div>
-<div class="main-tile-dmension">
-    <div class="artist"></div>
+    </div>
+    </div>
+
+    <div class="artist">
+        <div class="image-container-artist">
     <img src="static/artists-images/3.jpg" alt="Man playing Drums">
 </div>
 <div class="artist-name">
@@ -98,6 +105,9 @@
 <a href="#"><i class="fa-brands fa-tiktok"></i></a>
 <a href="#"><i class="fa-brands fa-instagram"></i></a>
 </div>
+</div>
+
+    </div>
 </section>
 
 <!-- Local Concerts -->
@@ -183,8 +193,8 @@
     <footer>
         <div class="bottom">
             <div class="map">
-                <img src="images/chicago map screenshot.png" alt="Map"></div>
-                <div class="footer-info">
+                <img src="images/chicago map screenshot.png" alt="Map" class="mapimg"></div>
+                <div class="footinfo">
                     <div class="foothead">info</div>
                     <div class="location">
                         <p class="tiny"><i class="fa-solid fa-location-dot"></i>Townsville, UL 55555 USA</p>
@@ -228,5 +238,6 @@
                 </div>
         </div>
     </footer>
+
 </body>
 </html>
